@@ -49,7 +49,7 @@ export default function Portfolio() {
         {/* Hero Section */}
         <section id="home" className="flex flex-col md:flex-row items-center justify-center gap-10 py-20">
           <div className="relative w-60 h-60 rounded-full overflow-hidden shadow-[0_0_30px_5px_rgba(0,255,255,0.3)] ring-4 ring-cyan-400 animate-pulse">
-            <img src="/profile-hero.jpg" alt="Profile" className="w-full h-full object-cover" />
+            <img src={`${import.meta.env.BASE_URL}profile-hero.jpg`} alt="Profile" className="w-full h-full object-cover" />
           </div>
           <div className="text-center md:text-left max-w-xl">
             <h1 className="text-5xl md:text-6xl font-bold text-cyan-400 drop-shadow mb-4 animate-pulse">Hello, I'm Mani</h1>

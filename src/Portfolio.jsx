@@ -206,50 +206,49 @@ export default function Portfolio() {
         issuer: "Oracle University",
         date: "April 2025",
         desc: "Recognized as an Oracle Certified Professional for expertise in AI-based vector search and intelligent retrieval systems.",
-        image: "/oracle.png"
+        image: `${import.meta.env.BASE_URL}oracle.png`
       },
       {
         title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
         issuer: "Amazon Web Services",
         date: "April 2022",
         desc: "Validated knowledge of AWS architecture, deployment, and cloud solution design.",
-        image: "/aws1.png"
+        image: `${import.meta.env.BASE_URL}aws1.png`
       },
       {
         title: "Work with generative artificial intelligence (AI) models in Azure Machine Learning",
         issuer: "Microsoft",
         date: "April 2024",
         desc: "Demonstrated proficiency in data cleaning, visualization, and analytics using spreadsheets, SQL, and R.",
-        image: "/microsoftbadge1.png"
+        image: `${import.meta.env.BASE_URL}microsoftbadge1.png`
       },
       {
         title: "Deploy and consume models with Azure Machine Learning",
         issuer: "Microsoft",
         date: "April 2024",
         desc: "Demonstrated proficiency in data cleaning, visualization, and analytics using spreadsheets, SQL, and R.",
-        image: "/microsoftbadge2.png"
+        image: `${import.meta.env.BASE_URL}microsoftbadge2.png`
       },
       {
         title: "Microsoft Certified: Azure AI Engineer Associate",
         issuer: "Microsoft",
         date: "August 2024",
         desc: "Certification in designing and implementing AI solutions on Azure using Cognitive Services and ML.",
-        image: () => (
-    <img src={`${import.meta.env.BASE_URL}Ai-consultant.png`} alt="AI Consultant" className="w-full h-auto" />)
+        image: `${import.meta.env.BASE_URL}Ai consultant.png`
       },
       {
         title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
         issuer: "Microsoft",
         date: "April 2022",
         desc: "Certification in designing and implementing AI solutions on Azure using Cognitive Services and ML.",
-        image: "/aws2.png"
+        image: `${import.meta.env.BASE_URL}aws2.png`
       },
       {
         title: "Build and Deploy Machine Learning App in Cloud with Python",
         issuer: "Udemy",
         date: "Feb 2025",
         desc: "Validated knowledge of AWS architecture, deployment, and cloud solution design.",
-        image: "/udemy.png"
+        image: `${import.meta.env.BASE_URL}udemy.png`
       }
     ].map((cert, idx) => (
       <div key={idx} className="bg-[#202040] rounded-xl p-6 border border-indigo-400 text-gray-200 shadow-xl hover:shadow-indigo-500 transition duration-300">

@@ -206,49 +206,49 @@ export default function Portfolio() {
         issuer: "Oracle University",
         date: "April 2025",
         desc: "Recognized as an Oracle Certified Professional for expertise in AI-based vector search and intelligent retrieval systems.",
-        image: "/oracle-cert.png"
+        image: "/oracle.png"
       },
       {
         title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
         issuer: "Amazon Web Services",
         date: "April 2022",
         desc: "Validated knowledge of AWS architecture, deployment, and cloud solution design.",
-        image: "/aws-cert.png"
+        image: "/aws1.png"
       },
       {
         title: "Work with generative artificial intelligence (AI) models in Azure Machine Learning",
         issuer: "Microsoft",
         date: "April 2024",
         desc: "Demonstrated proficiency in data cleaning, visualization, and analytics using spreadsheets, SQL, and R.",
-        image: "/google-data-analytics.png"
+        image: "/microsoftbadge1.png"
       },
       {
         title: "Deploy and consume models with Azure Machine Learning",
         issuer: "Microsoft",
         date: "April 2024",
         desc: "Demonstrated proficiency in data cleaning, visualization, and analytics using spreadsheets, SQL, and R.",
-        image: "/google-data-analytics.png"
+        image: "/microsoftbadge2.png"
       },
       {
         title: "Microsoft Certified: Azure AI Engineer Associate",
         issuer: "Microsoft",
         date: "August 2024",
         desc: "Certification in designing and implementing AI solutions on Azure using Cognitive Services and ML.",
-        image: "/azure-ai.png"
+        image: "/Ai consultant.png"
       },
       {
-        title: "Microsoft Certified: Azure AI Engineer Associate",
+        title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
         issuer: "Microsoft",
-        date: "August 2024",
+        date: "April 2022",
         desc: "Certification in designing and implementing AI solutions on Azure using Cognitive Services and ML.",
-        image: "/azure-ai.png"
+        image: "/aws2.png"
       },
       {
         title: "Build and Deploy Machine Learning App in Cloud with Python",
         issuer: "Udemy",
         date: "Feb 2025",
         desc: "Validated knowledge of AWS architecture, deployment, and cloud solution design.",
-        image: "/aws-cert.png"
+        image: "/udemy.png"
       }
     ].map((cert, idx) => (
       <div key={idx} className="bg-[#202040] rounded-xl p-6 border border-indigo-400 text-gray-200 shadow-xl hover:shadow-indigo-500 transition duration-300">
@@ -265,7 +265,7 @@ export default function Portfolio() {
 <section id="honors" className="py-20 max-w-4xl mx-auto">
   <h2 className="text-3xl font-bold text-center text-yellow-300 mb-10">Honors</h2>
   <div className="bg-[#202040] rounded-xl p-6 border border-yellow-400 text-gray-200 shadow-xl hover:shadow-yellow-500 transition duration-300 text-center">
-    <img src="/honors-award.png" alt="NIU Innovation Network Award" className="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md border-2 border-yellow-300" />
+    <img src={`${import.meta.env.BASE_URL}honors-award.png`} alt="NIU Innovation Network Award" className="w-48 h-48 mx-auto mb-6 rounded-lg shadow-md border-2 border-yellow-300" />
     <h3 className="text-xl font-bold text-yellow-300 mb-2">Award Winner</h3>
     <p className="text-sm text-gray-300">Northern Illinois University — Illinois Innovation Network Sustainability Research 2024 Conference</p>
     <p className="text-sm text-gray-400 mt-2">Recognized for excellence in research poster presentation</p>

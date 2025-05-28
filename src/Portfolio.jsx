@@ -234,7 +234,8 @@ export default function Portfolio() {
         issuer: "Microsoft",
         date: "August 2024",
         desc: "Certification in designing and implementing AI solutions on Azure using Cognitive Services and ML.",
-        image : <img src={`${import.meta.env.BASE_URL}Ai consultant.png`} alt="AI Consultant" />
+        image: () => (
+    <img src={`${import.meta.env.BASE_URL}Ai-consultant.png`} alt="AI Consultant" className="w-full h-auto" />)
       },
       {
         title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",

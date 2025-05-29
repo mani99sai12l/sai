@@ -39,7 +39,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white p-6 font-sans scroll-smooth">
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full bg-[#0f0c29]/90 backdrop-blur-md z-50 shadow-md py-4 px-8 flex justify-center gap-8 text-sm font-medium">
-        {["Home", "Projects", "Stats", "Experience", "Skills", "Research publications","Certifications", "Contact"].map((item) => (
+        {["Home", "Projects", "Stats", "Experience", "Skills", "publications","Certifications", "Contact"].map((item) => (
           <a key={item} href={`#${item.toLowerCase().replace(/ /g, "")}`} className="text-cyan-300 hover:text-pink-400 transition">{item}</a>
         ))}
       </nav>
@@ -238,7 +238,7 @@ export default function Portfolio() {
 
 
         {/* Research Publications */}
-<section id="Research publications" className="py-20 max-w-6xl mx-auto">
+<section id="publications" className="py-20 max-w-6xl mx-auto">
   <h2 className="text-3xl font-bold text-center text-yellow-300 mb-10">Research Publications</h2>
   <div className="grid md:grid-cols-2 gap-10">
     {[

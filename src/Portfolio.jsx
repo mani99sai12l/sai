@@ -39,7 +39,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white p-6 font-sans scroll-smooth">
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full bg-[#0f0c29]/90 backdrop-blur-md z-50 shadow-md py-4 px-8 flex justify-center gap-8 text-sm font-medium">
-        {["Home", "Projects", "Stats", "Experience", "Career Map", "Dashboard", "Skills", "Certifications", "Contact"].map((item) => (
+        {["Home", "Projects", "Stats", "Experience", "Skills", "Research publications","Certifications", "Contact"].map((item) => (
           <a key={item} href={`#${item.toLowerCase().replace(/ /g, "")}`} className="text-cyan-300 hover:text-pink-400 transition">{item}</a>
         ))}
       </nav>
@@ -167,9 +167,44 @@ export default function Portfolio() {
         </div>
       </div>
       </section>
+      <section id="skills" className="py-16 px-6 text-white">
+  <h2 className="text-3xl font-bold text-center text-cyan-400 mb-10">Technical Skills</h2>
+
+  {/* Data Analysis Tools */}
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold text-pink-400 mb-2">Data Analysis Tools</h3>
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {["Excel", "Power BI", "Tableau", "Looker", "Google Data Studio", "Root Cause Analysis (RCA)", "Pareto Charts", "Flowcharts", "Fishbone Diagrams"].map((tool, i) => (
+        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{tool}</div>
+      ))}
+    </div>
+  </div>
+
+  {/* Programming Languages */}
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold text-pink-400 mb-2">Programming Languages</h3>
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {["Python", "R", "SQL", "SAS", "STATA"].map((lang, i) => (
+        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{lang}</div>
+      ))}
+    </div>
+  </div>
+
+  {/* Big Data Technologies */}
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold text-pink-400 mb-2">Big Data Technologies</h3>
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {["Apache Hadoop", "Apache Spark", "Apache Kafka", "Apache Flink"].map((tech, i) => (
+        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{tech}</div>
+      ))}
+    </div>
+  </div>
+
+  {/* Continue in the same pattern for the rest: Cloud, Warehousing, ETL, ML, etc. */}
+</section>
 
         {/* Research Publications */}
-<section id="publications" className="py-20 max-w-6xl mx-auto">
+<section id="Research publications" className="py-20 max-w-6xl mx-auto">
   <h2 className="text-3xl font-bold text-center text-yellow-300 mb-10">Research Publications</h2>
   <div className="grid md:grid-cols-2 gap-10">
     {[

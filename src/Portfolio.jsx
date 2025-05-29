@@ -170,38 +170,72 @@ export default function Portfolio() {
       <section id="skills" className="py-16 px-6 text-white">
   <h2 className="text-3xl font-bold text-center text-cyan-400 mb-10">Technical Skills</h2>
 
-  {/* Data Analysis Tools */}
-  <div className="mb-6">
-    <h3 className="text-xl font-semibold text-pink-400 mb-2">Data Analysis Tools</h3>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {["Excel", "Power BI", "Tableau", "Looker", "Google Data Studio", "Root Cause Analysis (RCA)", "Pareto Charts", "Flowcharts", "Fishbone Diagrams"].map((tool, i) => (
-        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{tool}</div>
-      ))}
+  {[
+    {
+      title: "Data Analysis Tools",
+      skills: ["Excel", "Power BI", "Tableau", "Looker", "Google Data Studio", "Root Cause Analysis (RCA)", "Pareto Charts", "Flowcharts", "Fishbone Diagrams"]
+    },
+    {
+      title: "Programming Languages",
+      skills: ["Python", "R", "SQL", "SAS", "STATA"]
+    },
+    {
+      title: "Big Data Technologies",
+      skills: ["Apache Hadoop", "Apache Spark", "Apache Kafka", "Apache Flink"]
+    },
+    {
+      title: "Cloud Platforms",
+      skills: ["AWS", "Google Cloud Platform", "Microsoft Azure"]
+    },
+    {
+      title: "Data Warehousing",
+      skills: ["Snowflake", "Amazon Redshift", "Google BigQuery"]
+    },
+    {
+      title: "ETL & Geospatial Tools",
+      skills: ["Informatica", "Alteryx", "Apache Airflow", "Talend", "GeoPandas", "Folium", "QGIS (basic)", "ArcGIS (familiar)"]
+    },
+    {
+      title: "ML & Statistical Analysis",
+      skills: ["scikit-learn", "TensorFlow", "Keras", "Statsmodels", "SciPy"]
+    },
+    {
+      title: "Data Manipulation & APIs",
+      skills: ["pandas", "NumPy", "dplyr", "SQL-based transformations", "FTP", "SFTP", "REST API", "Defect Tracking", "KPI Reporting", "Corrective Action Planning"]
+    },
+    {
+      title: "Version Control & Collaboration",
+      skills: ["Git", "GitHub", "JIRA", "Confluence"]
+    },
+    {
+      title: "Data Modeling & Databases",
+      skills: ["SQL Server", "MySQL", "PostgreSQL", "MongoDB"]
+    },
+    {
+      title: "Data Governance & Quality",
+      skills: ["Informatica Data Quality", "Collibra", "Talend Data Quality", "CSV", "JSON", "fixed-width", "GeoDatabase"]
+    },
+    {
+      title: "Data Security",
+      skills: ["Encryption", "Data Masking", "IAM (Identity and Access Management)"]
+    }
+  ].map((section, idx) => (
+    <div key={idx} className="mb-6">
+      <h3 className="text-xl font-semibold text-pink-400 mb-3">{section.title}</h3>
+      <div className="grid grid-cols-2 gap-3">
+        {section.skills.map((skill, i) => (
+          <div
+            key={i}
+            className="border border-cyan-400 rounded-md px-3 py-2 text-center text-xs font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition"
+          >
+            {skill}
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-
-  {/* Programming Languages */}
-  <div className="mb-6">
-    <h3 className="text-xl font-semibold text-pink-400 mb-2">Programming Languages</h3>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {["Python", "R", "SQL", "SAS", "STATA"].map((lang, i) => (
-        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{lang}</div>
-      ))}
-    </div>
-  </div>
-
-  {/* Big Data Technologies */}
-  <div className="mb-6">
-    <h3 className="text-xl font-semibold text-pink-400 mb-2">Big Data Technologies</h3>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {["Apache Hadoop", "Apache Spark", "Apache Kafka", "Apache Flink"].map((tech, i) => (
-        <div key={i} className="border border-cyan-400 rounded-lg px-4 py-2 text-center text-sm font-medium bg-[#1c1f2b] hover:bg-[#2c2f3b] transition">{tech}</div>
-      ))}
-    </div>
-  </div>
-
-  {/* Continue in the same pattern for the rest: Cloud, Warehousing, ETL, ML, etc. */}
+  ))}
 </section>
+
 
         {/* Research Publications */}
 <section id="Research publications" className="py-20 max-w-6xl mx-auto">

@@ -7,31 +7,31 @@ export default function Portfolio() {
       title: "Programmer Analyst",
       org: "Rabobank",
       date: "Jun 2021 – Aug 2022",
-      desc: "Banking application development, ETL solutions, security compliance"
+      desc: "Environment: Java, SQL, Spring Framework, Informatica, Agile, Oracle, Python, REST APIs, SOAP, Web Services, SSL/TLS, OAuth, Data Encryption, Hibernate, Java EE."
     },
     {
       title: "AI-ML Intern",
       org: "AWS academy",
       date: "Mar 2022 – May 2022",
-      desc: "Banking application development, ETL solutions, security compliance"
+      desc: "Environment: AWS SageMaker,Amazon Rekognition,Amazon Comprehend,Amazon Polly,AWS Lambda,AWS EC2,AWS S3,Jupyter Notebooks,scikit-learn,TensorFlow,Keras,pandas, NumPy,Model Deployment,API Integration,Data Labeling and Preprocessing,Model Training & Evaluation,Cloud-based Machine Learning Pipelines,Classification & Regression Algorithmse"
     },
     {
       title: "Data Analyst",
       org: "Bupa",
       date: "Sep 2022 – Jul 2023",
-      desc: "Healthcare analytics, patient data modeling, R & Python ML forecasting"
+      desc: "Environment: SQL, Python (pandas, NumPy), Tableau, Power BI, Looker, Informatica, scikit-learn, R, Epic, Cerner, Azure."
     },
     {
       title: "Senior Data Analyst",
       org: "Episensors",
       date: "Nov 2023 – Apr 2024",
-      desc: "Insurance analytics, fraud detection, ML model development, cloud optimization"
+      desc: "Environment: Excel (advanced level), SQL, Python (pandas, NumPy), Tableau, Power BI, Looker, Apache Kafka, Apache Spark, Hadoop, AWS S3, AWS Redshift, Informatica, Alteryx, scikit-learn, SciPy, Matplotlib, Seaborn, Snowflake."
     },
     {
       title: "Senior Data Analyst",
       org: "Northern Illinois University",
       date: "May 2024 – Present",
-      desc: "Retail data analysis, predictive modeling, ML integration, Power BI & Tableau dashboarding"
+      desc: "Environment: SQL, Python (pandas, NumPy), Matplotlib, Seaborn, Power BI, Tableau, Looker, scikit-learn, Informatica, Alteryx, Snowflake, Apache Kafka, Apache Spark, Hadoop, Azure Data Lake, Azure Synapse, SciPy, Azure Machine Learning."
     }
   ];
 

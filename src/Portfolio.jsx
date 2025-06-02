@@ -6,7 +6,7 @@ export default function Portfolio() {
     {
       title: "Programmer Analyst",
       org: "Rabobank",
-      date: "Jun 2021 – Aug 2022",
+      date: "Jan 2020 – Aug 2022",
       desc: "Environment: Java, SQL, Spring Framework, Informatica, Agile, Oracle, Python, REST APIs, SOAP, Web Services, SSL/TLS, OAuth, Data Encryption, Hibernate, Java EE."
     },
     {

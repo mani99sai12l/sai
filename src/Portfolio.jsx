@@ -92,10 +92,28 @@ export default function Portfolio() {
               emoji: "📊"
             },
             {
+              title: "ANALYSIS OF ABNORMAL ACTIVITY DETECTION IN OFFLINE SURVEILLANCE FOOTAGE",
+              desc: "We are using three separate models in the method to identify the videos of anomaly. The models are convolutional neural networks (CNN), architecture VGG16 and ResNet50. In this project, we use videos of real-time anomalies to train the pattern. So that we can able to evaluate each model's performance independently and use the model to predict anomalies with the highest degree of accuracy. VGG16 model is chosen from the three models for the prediction based on its performance in training and testing.We are using three separate models in the method to identify the videos of anomaly. The models are convolutional neural networks (CNN), architecture VGG16 and ResNet50. In this project, we use videos of real-time anomalies to train the pattern. So that we can able to evaluate each model's performance independently and use the model to predict anomalies with the highest degree of accuracy. VGG16 model is chosen from the three models for the prediction based on its performance in training and testing",
+              color: "from-purple-500 to-blue-500",
+              emoji: "🚨"
+            },
+            {
               title: "🗃️ SQL Retail Analytics",
               desc: "Advanced MySQL queries for insights.",
               color: "from-yellow-500 to-pink-500",
               emoji: "🗃️"
+            },
+            {
+              title: "REAL AND FAKE FACE DETECTION",
+              desc: "The model enables us to detect whether the given input image of a person is a real face or a fake face. The model is trained by more than 10,000 dataset images.",
+              color: "from-yellow-500 to-pink-500",
+              emoji: "🔍"
+            },
+            {
+              title: "SMART HIRING WEB APPLICATION(ReactJS)",
+              desc: "It is a job hiring portal developed using ReactJS, where we can build our profile and apply to various job roles. There are various options to identify the exact outcome of the user.",
+              color: "from-yellow-500 to-pink-500",
+              emoji: "🧠"
             },
             {
               title: "🎬 Netflix EDA",
@@ -108,6 +126,12 @@ export default function Portfolio() {
               desc: "Interactive KPIs and filters using Tableau.",
               color: "from-blue-400 to-indigo-500",
               emoji: "📈"
+            },
+            {
+              title: "SELFIE CAPTURING BY DETECTING SMILE",
+              desc: "We can auto capture selfie by detecting smile. In addition to that feature we add photo capture, browsing option, filters, video option, watermark on image features in this project to make the interface user-friendly. The main idea is to develop and interface similar to the mobile camera in laptop.",
+              color: "from-yellow-500 to-pink-500",
+              emoji: "📹"
             },
           ].map((project, i) => (
             <div key={i} className={`bg-[#0e0e2e] rounded-2xl p-6 border border-cyan-300 shadow-2xl hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_30px_5px_rgba(0,255,255,0.3)] relative overflow-hidden`}>

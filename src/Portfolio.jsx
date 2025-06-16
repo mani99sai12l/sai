@@ -4,9 +4,15 @@ import { Github, Linkedin, FileText } from "lucide-react";
 export default function Portfolio() {
   const experiences = [
     {
-      title: "Programmer Analyst",
+      title: "Financial Data Analyst",
       org: "Rabobank",
-      date: "Jan 2020 – Aug 2022",
+      date: "Jan 2020 – Feb 2021",
+      desc: "Environment: Java, SQL, Spring Framework, Informatica, Agile, Oracle, Python, REST APIs, SOAP, Web Services, SSL/TLS, OAuth, Data Encryption, Hibernate, Java EE."
+    },
+    {
+      title: "Programming Analyst",
+      org: "Rabobank",
+      date: "Mar 2021 – Aug 2022",
       desc: "Environment: Java, SQL, Spring Framework, Informatica, Agile, Oracle, Python, REST APIs, SOAP, Web Services, SSL/TLS, OAuth, Data Encryption, Hibernate, Java EE."
     },
     {
@@ -22,13 +28,13 @@ export default function Portfolio() {
       desc: "Environment: SQL, Python (pandas, NumPy), Tableau, Power BI, Looker, Informatica, scikit-learn, R, Epic, Cerner, Azure."
     },
     {
-      title: "Senior Data Analyst",
+      title: "Business Data Analyst",
       org: "Episensors",
       date: "Nov 2023 – Apr 2024",
       desc: "Environment: Excel (advanced level), SQL, Python (pandas, NumPy), Tableau, Power BI, Looker, Apache Kafka, Apache Spark, Hadoop, AWS S3, AWS Redshift, Informatica, Alteryx, scikit-learn, SciPy, Matplotlib, Seaborn, Snowflake."
     },
     {
-      title: "Senior Data Analyst",
+      title: "Data Research Analyst (AI/ML & Data Science)",
       org: "Northern Illinois University",
       date: "May 2024 – Present",
       desc: "Environment: SQL, Python (pandas, NumPy), Matplotlib, Seaborn, Power BI, Tableau, Looker, scikit-learn, Informatica, Alteryx, Snowflake, Apache Kafka, Apache Spark, Hadoop, Azure Data Lake, Azure Synapse, SciPy, Azure Machine Learning."
